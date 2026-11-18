@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>کتاب‌ها | کتابخانه</title>
+  <link rel="stylesheet" href="books.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a href="../home/home.html" class="logo">کتابخانه<span>.</span></a>
+
+    <nav>
+      <a href="../home/home.html">خانه</a>
+      <a href="books.html" class="active">کتاب‌ها</a>
+      <a href="../Categories/categories.html">دسته‌بندی‌ها</a>
+      <a href="../Favorites/favorites.html">علاقه‌مندی‌ها</a>
+      <a href="../about/about.html">درباره ما</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-heading">
+      <span class="eyebrow">دنیای مطالعه</span>
+      <h1>دنیای کتاب‌ها</h1>
+      <p>کتاب مورد علاقه‌ات را پیدا کن و وارد دنیای تازه‌ای شو.</p>
+    </section>
+
+    <section class="catalog">
+
+      <div class="catalog-top">
+
+        <div class="search-box">
+          <span>⌕</span>
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="نام کتاب یا نویسنده را جست‌وجو کن..."
+          >
+        </div>
+
+        <select id="categoryFilter">
+          <option value="all">همه دسته‌بندی‌ها</option>
+          <option value="novel">رمان</option>
+          <option value="self">خودشناسی و موفقیت</option>
+          <option value="psychology">روان‌شناسی</option>
+          <option value="philosophy">فلسفه و معنا</option>
+        </select>
+
+      </div>
+
+      <div class="result-info">
+        <h2 id="resultTitle">همه کتاب‌ها</h2>
+        <span id="bookCount"></span>
+      </div>
+
+      <div class="books-grid" id="booksGrid"></div>
+
+      <p class="empty-message" id="emptyMessage">
+        کتابی با این مشخصات پیدا نشد.
+      </p>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> کتابخانه | دنیایی برای عاشقان کتاب</p>
+  </footer>
+
+  <script src="books.js"></script>
+
+</body>
+</html>

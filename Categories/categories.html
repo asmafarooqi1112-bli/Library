@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دسته‌بندی‌ها | کتابخانه</title>
+
+  <link rel="stylesheet" href="categories.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a href="../home/home.html" class="logo">کتابخانه<span>.</span></a>
+
+    <nav>
+      <a href="../home/home.html">خانه</a>
+      <a href="../Books/books.html">کتاب‌ها</a>
+      <a href="categories.html" class="active">دسته‌بندی‌ها</a>
+      <a href="../favorites/favorites.html">علاقه‌مندی‌ها</a>
+      <a href="../about/about.html">درباره ما</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-heading">
+      <span class="eyebrow">کتاب‌ها را کشف کن</span>
+      <h1>دسته‌بندی کتاب‌ها</h1>
+      <p>از میان دنیای متنوع کتاب‌ها، موضوع مورد علاقه‌ات را انتخاب کن.</p>
+    </section>
+
+    <section class="categories-section">
+
+      <div class="section-heading">
+        <h2>موضوع مورد علاقه‌ات چیست؟</h2>
+        <p>یک دسته را انتخاب کن و کتاب‌های آن را ببین.</p>
+      </div>
+
+      <div class="categories-grid">
+
+        <article class="category-card novel">
+          <div class="category-icon">✦</div>
+          <span class="category-number">01</span>
+          <h3>رمان</h3>
+          <p>داستان‌هایی برای سفر به دنیاهای تازه و تجربه احساسات متفاوت.</p>
+          <a href="../Books/books.html?category=novel">
+            مشاهده کتاب‌ها <span>←</span>
+          </a>
+        </article>
+
+        <article class="category-card self">
+          <div class="category-icon">✧</div>
+          <span class="category-number">02</span>
+          <h3>خودشناسی و موفقیت</h3>
+          <p>کتاب‌هایی برای شناخت بهتر خود و ساختن عادت‌های بهتر.</p>
+          <a href="../Books/books.html?category=self">
+            مشاهده کتاب‌ها <span>←</span>
+          </a>
+        </article>
+
+        <article class="category-card psychology">
+          <div class="category-icon">◇</div>
+          <span class="category-number">03</span>
+          <h3>روان‌شناسی</h3>
+          <p>شناخت ذهن، احساسات، رفتارها و روابط انسانی.</p>
+          <a href="../Books/books.html?category=psychology">
+            مشاهده کتاب‌ها <span>←</span>
+          </a>
+        </article>
+
+        <article class="category-card philosophy">
+          <div class="category-icon">✧</div>
+          <span class="category-number">04</span>
+          <h3>فلسفه و معنا</h3>
+          <p>پرسش‌هایی درباره زندگی، معنا و شناخت عمیق‌تر جهان.</p>
+          <a href="../Books/books.html?category=philosophy">
+            مشاهده کتاب‌ها <span>←</span>
+          </a>
+        </article>
+
+      </div>
+
+    </section>
+
+    <section class="quote-section">
+      <span>«</span>
+      <p>هر کتاب، دری است به سوی دنیایی تازه.</p>
+      <span>»</span>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> کتابخانه | دنیایی برای عاشقان کتاب</p>
+  </footer>
+
+  <script src="categories.js"></script>
+
+</body>
+</html>

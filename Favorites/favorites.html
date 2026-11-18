@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علاقه‌مندی‌ها | کتابخانه</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="favorites.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="../home/home.html" class="logo">کتابخانه<span>.</span></a>
+
+        <nav>
+            <a href="../home/home.html">خانه</a>
+            <a href="../Books/books.html">کتاب‌ها</a>
+            <a href="../Categories/categories.html">دسته‌بندی‌ها</a>
+            <a href="favorites.html" class="active">علاقه‌مندی‌ها</a>
+            <a href="../about/about.html">درباره ما</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="page-heading">
+            <span class="eyebrow">مجموعه شخصی شما</span>
+            <h1>کتاب‌های مورد علاقه من</h1>
+            <p>کتاب‌هایی که دوست داری همیشه در دسترست باشند.</p>
+        </section>
+
+        <section class="books-section">
+
+            <div class="result-info">
+                <h2>علاقه‌مندی‌های من</h2>
+                <span id="favoriteCount">۰ کتاب</span>
+            </div>
+
+            <div class="books-grid" id="favoritesGrid"></div>
+
+            <div class="empty-message" id="emptyMessage">
+                <div class="empty-heart">♡</div>
+                <h3>هنوز کتابی اضافه نکرده‌ای!</h3>
+                <p>به صفحه کتاب‌ها برو و کتاب‌های مورد علاقه‌ات را انتخاب کن.</p>
+                <a href="../Books/books.html" class="browse-btn">
+                    مشاهده کتاب‌ها
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> کتابخانه | تمام حقوق محفوظ است.</p>
+    </footer>
+
+    <script src="favorites.js"></script>
+</body>
+</html>
